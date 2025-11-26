@@ -63,7 +63,6 @@ h1 span{
 
  footer{
     margin-left: 60px;
-    position: absolute;
     bottom: 0;
  }
 
@@ -125,49 +124,63 @@ td {
     border-bottom-right-radius: 16px;
 }
 
-.reserva {
-    background: #d9d9d9;
-    width: 60%;
-    padding: 20px 30px;
-    margin-left: 18%  ;
-}
-
-.reserva p {
+.formulari {
+    width: 55%;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.28);
     font-size: 18px;
-    margin-bottom: 30px;
 }
 
-.reserva form {
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    width: 50%;
+.formulari h2 {
+    color: #3a4a5c;
+    border-bottom: 2px solid #3a4a5c;
+    padding-bottom: 5px;
+    margin-top: 30px;
 }
 
-.reserva label {
-    font-weight: 600;
-}
-
-.reserva input,
-.reserva select {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-}
-
-.reserva button {
-    width: 200px;
+.bloc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 25px;
     margin-top: 20px;
-    padding: 12px;
+}
+
+.bloc label {
+    font-weight: bold;
+}
+
+.bloc input,
+.bloc select,
+.bloc textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
     font-size: 16px;
+}
+
+textarea {
+    grid-column: 1 / span 2;
+}
+
+small {
+    grid-column: 1 / span 2;
+    font-size: 14px;
+    color: #444;
+}
+
+.boto {
     background: #3a4a5c;
     color: white;
     border: none;
-    border-radius: 6px;
+    padding: 12px 25px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 18px;
 }
-
-.reserva button:hover {
-    background: #2c3947;
+.boto:hover {
+    background: #2e3a48;
 }
