@@ -20,36 +20,78 @@
         <div class="general">
             <h1>Reserve su habitación en Hotel Terror</h1>
 
-            <div class="reserva">
-                <p>Formulario según instrucciones del enunciado</p>
+            <div class="formulari">
 
-                <form>
-                    <label>Nombre completo</label>
-                    <input type="text" required>
+            <h2>Dades personals</h2>
+            <div class="bloc">
+                <label for="tractament">Tractament:</label>
+                <select id="tractament" name="tractament">
+                    <option>Sr</option>
+                    <option>Sra</option>
+                    <option>Srta</option>
+                </select>
 
-                    <label>Email</label>
-                    <input type="email" required>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" required>
 
-                    <label>Fecha de entrada</label>
-                    <input type="date" required>
+                <label for="cognoms">Cognoms:</label>
+                <input type="text" id="cognoms" required>
 
-                    <label>Fecha de salida</label>
-                    <input type="date" required>
+                <label for="telefon">Telèfon:</label>
+                <input type="tel" id="telefon" required>
 
-                    <label>Tipo de habitación</label>
-                    <select required>
-                        <option>Individual</option>
-                        <option>Doble</option>
-                        <option>Doble superior</option>
-                        <option>Triple</option>
-                    </select>
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" required>
 
-                    <label>Número de personas</label>
-                    <input type="number" min="1" max="6" required>
+                <label for="email2">Confirmar correu electrònic:</label>
+                <input type="email" id="email2" required>
 
-                    <button type="submit">Reservar</button>
-                </form>
+                <label for="pass">Contrasenya:</label>
+                <input type="password" id="pass" required>
             </div>
+
+            <h2>Dades de la reserva</h2>
+            <div class="bloc">
+
+                <label for="habitacio">Tipus d'habitació:</label>
+                <select id="habitacio" name="habitacio">
+                    <option>Habitació individual</option>
+                    <option>Habitació doble</option>
+                    <option>Habitació doble superior</option>
+                    <option>Habitació triple</option>
+                </select>
+
+                <label for="persones">Número de persones:</label>
+                <input type="number" id="persones" min="1" max="6" required>
+
+                <label for="entrada">Data d'entrada:</label>
+                <input type="date" id="entrada" required>
+
+                <label for="sortida">Data de sortida:</label>
+                <input type="date" id="sortida" required>
+
+                <label for="peticions">Peticions especials:</label>
+                <textarea id="peticions" rows="4" placeholder="Les peticions no es poden garantir, però l’hotel farà tot el possible per satisfer-les."></textarea>
+            </div>
+
+            <h2>Dades addicionals</h2>
+            <div class="bloc">
+
+                <label for="parking">Parking cobert (8€/nit):</label>
+                <input type="checkbox" id="parking">
+                <small>L’hotel disposa de parking exterior gratuït.</small>
+
+                <label for="arribada">Hora prevista d'arribada:</label>
+                <input type="time" id="arribada">
+
+                <label for="esmorzar">Afegir esmorzar (5€/dia):</label>
+                <input type="checkbox" id="esmorzar">
+            </div>
+
+            <div style="text-align:center; margin-top:20px;">
+                <button type="submit" class="boto">Enviar reserva</button>
+        </div>
+</div>
         </div>
     </div>
     <footer> 
