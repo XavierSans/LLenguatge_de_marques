@@ -1,0 +1,173 @@
+body{
+    background-color: green;
+}
+
+.barra {
+    display: flex;          
+    align-items: center;    
+    gap: 20px;
+}
+
+#navegador{
+    margin-left: 38%;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#navegador a{
+    font-size: 30px;
+    margin: 70px;
+    color: white;
+}
+
+.contenidor h1{
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.contenidor p{
+    font-family: Arial, sans-serif;
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.imatge1{
+    margin-left: 3%;
+}
+
+h1 span{
+    font-family: Arial, sans-serif;
+    color:blue;
+}
+.general{
+    background-color: white;
+    width: 100%;
+    padding: 50px;
+    margin: 0;
+}
+.general h1{
+    margin: 0;
+    font-size: 60px;
+}
+.contenidor {
+    background: url("img/casa_encantada.jpg") no-repeat center;   
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    color: red;
+ }
+
+
+ footer{
+    margin-left: 60px;
+    position: absolute;
+    bottom: 0;
+ }
+
+ a{
+    color: white;
+    text-decoration: none;
+ }
+
+.general table{
+    margin-left: 20%;
+}
+.general .peu-taula{
+    margin-left: 20%;
+}
+
+table {
+    margin-top: 30px;
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.28);
+    font-size: 18px;
+}
+
+thead tr {
+    background: #3a4a5c;
+    color: white;
+}
+
+th {
+    padding: 20px 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+td {
+    padding: 22px 10px;
+    font-size: 18px;
+}
+
+.fila-gris {
+    background: #f2f2f2;
+}
+
+.icon {
+    width: 36px;
+}
+
+.peu-taula {
+    width: 48.7%;
+    background: #3a4a5c;
+    color: white;
+    padding: 14px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.reserva {
+    background: #d9d9d9;
+    width: 60%;
+    padding: 20px 30px;
+    margin-left: 18%  ;
+}
+
+.reserva p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.reserva form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 50%;
+}
+
+.reserva label {
+    font-weight: 600;
+}
+
+.reserva input,
+.reserva select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.reserva button {
+    width: 200px;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    background: #3a4a5c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.reserva button:hover {
+    background: #2c3947;
+}
