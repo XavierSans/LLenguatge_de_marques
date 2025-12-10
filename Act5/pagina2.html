@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="utf-8" />
+    <title>Precios</title>
+
+    <style type="text/css">
+        @import url(/css/styless.css);
+    </style>
+
+    <script src="components/rellotge.js" defer></script>
+    <script src="components/hover.js" defer></script>
+</head>
+
+<body onload="iniciarRellotge()">
+
+    <div id="rellotge"></div>
+
+    <nav id="navegador">
+        <a href="pagina1.html">Inicio</a>
+        <a href="pagina2.html">Precios</a>
+        <a href="pagina3.html">Reserva</a>
+    </nav>
+
+    <h1>Preus partits barça</h1>
+
+    <section class="seccio-preus"
+             onmouseover="destacar(this)"
+             onmouseout="restaurar(this)">
+        <h3>FC Barcelona vs. Partit 1</h3>
+            <p><strong>Gol Nord / Gol Sud:</strong> 35 €</p>
+            <p><strong>Lateral tercer amfiteatre:</strong> 50 €</p>
+            <p><strong>Tribuna:</strong> 80 €</p>
+        <p class="text-ocult">
+            En passar el ratolí per sobre d'aquesta secció, es mostra aquest text
+            ocult amb més informació sobre els preus dels partits del Barça i
+            possibles descomptes especials per a socis o abonats.
+        </p>
+    </section>
+
+     
+    <section class="seccio-preus"
+             onmouseover="destacar(this)"
+             onmouseout="restaurar(this)">
+            <h3>FC Barcelona vs. Partit 2</h3>
+                <p><strong>Gol Nord / Gol Sud:</strong> 40 €</p>
+                <p><strong>Lateral tercer amfiteatre:</strong> 55 €</p>
+                <p><strong>Tribuna:</strong> 90 €</p>
+
+        <p class="text-ocult">
+            En passar el ratolí per sobre d'aquesta secció, es mostra aquest text
+            ocult amb més informació sobre els preus dels partits del Barça i
+            possibles descomptes especials per a socis o abonats.
+        </p>
+    </section>
+
+</body>
+</html>

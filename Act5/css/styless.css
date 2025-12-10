@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f3f3f3;
+    color: #333;
+    padding: 20px;
+}
+
+#navegador {
+    background: #1e1e2f;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#navegador a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+#navegador a:hover {
+    background: #ffffff22;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: #222;
+}
+
+.miniatures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.miniatures img {
+    width: 130px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: transform 0.2s, border 0.2s;
+    box-shadow: 0px 4px 10px #00000025;
+}
+
+.miniatures img:hover {
+    transform: scale(1.08);
+    border: 3px solid #1e1e2f;
+}
+
+.imatge-gran {
+    margin-top: 20px;
+    width: 40%;
+    display: block;
+    margin: 0px;
+    border: 3px;
+    border-radius: 8px;
+    margin-left: 28%;
+}
+
+#rellotge {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #1e1e2f;
+    color: #fff;
+    padding: 10px 20px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.seccio-preus {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px #00000020;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.text-ocult {
+    display: none;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.form-container {
+    max-width: 450px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px #00000020;
+}
+
+.form-group {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
