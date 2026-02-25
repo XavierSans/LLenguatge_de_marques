@@ -10,7 +10,6 @@
         </peticio>
     </client>
 
-    <!-- PRESSUPOST 1: Estàndard (AM5 + RTX 4060) -->
     <pressupost id="p001" tipus="estandard" data="2026-02-25">
 
         <components proveidor="PcComponentes">
@@ -66,7 +65,6 @@
 
     </pressupost>
 
-    <!-- PRESSUPOST 2: Gaming/Pro (X670E + 7800X3D + RTX 4070 SUPER) -->
     <pressupost id="p002" tipus="gaming_pro" data="2026-02-25">
 
         <components proveidor="PcComponentes">
