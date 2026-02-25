@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pressuposts moneda="EUR" origen="email">
+
+    <client id="c001">
+        <peticio>
+            Hola, necessito que hem configureu dos pressupostos d'un ordinador d'acord als següents components:
+            una placa base, un processador, dos sticks de memòria RAM, un disc dur, una targeta gràfica i una targeta de so.
+            Els altres components els puc reutilitzar de l'ordinador que tinc actualment. Gràcies.
+        </peticio>
+    </client>
+
+    <!-- PRESSUPOST 1: Estàndard (AM5 + RTX 4060) -->
+    <pressupost id="p001" tipus="estandard" data="2026-02-25">
+
+        <components proveidor="PcComponentes">
+
+            <component categoria="placa_base" sku="90MB1BY0-M0EAY0">
+                <nom>ASUS TUF GAMING B650-PLUS (AM5, DDR5, ATX)</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>164.26</preu_unitari>
+                <subtotal>164.26</subtotal>
+            </component>
+
+            <component categoria="processador" sku="100-100001015BOX">
+                <nom>AMD Ryzen 5 7600 3.8/5.1 GHz Box</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>188.41</preu_unitari>
+                <subtotal>188.41</subtotal>
+            </component>
+
+            <component categoria="memoria_ram" format="kit" sticks="2">
+                <nom>Kingston FURY Beast DDR5 6000MHz 16GB (2x8) CL36</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>269.95</preu_unitari>
+                <subtotal>269.95</subtotal>
+            </component>
+
+            <component categoria="disc_dur" tipus="SSD_NVMe" capacitat="1TB">
+                <nom>Samsung 970 EVO Plus 1TB SSD NVMe M.2</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>330.03</preu_unitari>
+                <subtotal>330.03</subtotal>
+            </component>
+
+            <component categoria="targeta_grafica" estat="reacondicionat">
+                <nom>Gigabyte GeForce RTX 4060 EAGLE OC 8GB GDDR6 DLSS3</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>272.15</preu_unitari>
+                <subtotal>272.15</subtotal>
+            </component>
+
+            <component categoria="targeta_so" connexio="PCIe">
+                <nom>Creative Sound Blaster Audigy Fx V2 (PCI-e)</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>46.98</preu_unitari>
+                <subtotal>46.98</subtotal>
+            </component>
+
+        </components>
+
+        <resum>
+            <total>1271.78</total>
+            <observacions>La resta de components (caixa, font, refrigeració, etc.) es reutilitzen.</observacions>
+        </resum>
+
+    </pressupost>
+
+    <!-- PRESSUPOST 2: Gaming/Pro (X670E + 7800X3D + RTX 4070 SUPER) -->
+    <pressupost id="p002" tipus="gaming_pro" data="2026-02-25">
+
+        <components proveidor="PcComponentes">
+
+            <component categoria="placa_base" chipset="X670E">
+                <nom>MSI MPG X670E CARBON WIFI</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>477.32</preu_unitari>
+                <subtotal>477.32</subtotal>
+            </component>
+
+            <component categoria="processador" sku="100-100000910WOF">
+                <nom>AMD Ryzen 7 7800X3D 4.2/5.0 GHz</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>389.90</preu_unitari>
+                <subtotal>389.90</subtotal>
+            </component>
+
+            <component categoria="memoria_ram" format="kit" sticks="2">
+                <nom>Corsair Vengeance DDR5 6000MHz 32GB (2x16) CL36</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>491.24</preu_unitari>
+                <subtotal>491.24</subtotal>
+            </component>
+
+            <component categoria="disc_dur" tipus="SSD_NVMe" capacitat="2TB">
+                <nom>Samsung 990 Pro 2TB SSD NVMe PCIe 4.0 M.2</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>284.95</preu_unitari>
+                <subtotal>284.95</subtotal>
+            </component>
+
+            <component categoria="targeta_grafica" vram="12GB">
+                <nom>Gigabyte GeForce RTX 4070 SUPER WINDFORCE OC 12GB GDDR6X DLSS3</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>669.99</preu_unitari>
+                <subtotal>669.99</subtotal>
+            </component>
+
+            <component categoria="targeta_so" connexio="PCIe">
+                <nom>Creative Sound BlasterX AE-5 Plus</nom>
+                <quantitat>1</quantitat>
+                <preu_unitari>117.59</preu_unitari>
+                <subtotal>117.59</subtotal>
+            </component>
+
+        </components>
+
+        <resum>
+            <total>2430.99</total>
+            <observacions>La resta de components (caixa, font, refrigeració, etc.) es reutilitzen. CPU pot requerir dissipador compatible.</observacions>
+        </resum>
+
+    </pressupost>
+
+</pressuposts>

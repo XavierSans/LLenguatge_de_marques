@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<receptes>
+
+    <recepta id="r1" categoria="postre">
+        <nom>Pastís de xocolata</nom>
+
+        <ingredients>
+            <ingredient quantitat="6" unitats="unitats">rovells d’ou</ingredient>
+            <ingredient quantitat="6" unitats="unitats">clares</ingredient>
+            <ingredient quantitat="150" unitats="g">sucre</ingredient>
+            <ingredient quantitat="200" unitats="g">xocolata negra de cobertura</ingredient>
+            <ingredient quantitat="50" unitats="g">mantega</ingredient>
+            <ingredient quantitat="farina" unitats="q.s.">farina</ingredient>
+
+            <guarnicio>
+                <ingredient unitats="q.s.">nata muntada</ingredient>
+                <ingredient unitats="q.s.">cacau en pols</ingredient>
+            </guarnicio>
+        </ingredients>
+
+        <preparacio format="text">
+            <text>Per començar, barregeu els rovells d’ou amb el sucre en un bol.</text>
+            <text>Mentrestant, foneu la cobertura de xocolata al bany maria. Quan la xocolata s’hagi desfet, afegiu-hi la mantega i remeneu-ho. Tot seguit, munteu les clares que haureu tingut a la nevera perquè es muntin bé.</text>
+            <text>A continuació, barregeu la xocolata, els rovells i el sucre i les clares muntades. Remeneu-ho i poseu-ho en un motllo per al forn.</text>
+            <text>Deixeu-ho coure al forn a 180 graus durant 30 minuts. Després, deixeu refredar el pastís, desemmotlleu-lo i emplateu-lo, i ja per acabar, decoreu-lo amb nata muntada i cacau en pols.</text>
+        </preparacio>
+
+        <notes_complementaries>
+            <text>Recepta del programa de TV3 Cuines, del restaurant Les Petxines.</text>
+        </notes_complementaries>
+
+        <autors>
+            <autor>Bàrbara Casanovas</autor>
+            <autor>Adrià Ruscalleda</autor>
+        </autors>
+
+        <etiquetes>
+            <etiqueta>Postre</etiqueta>
+            <etiqueta>Dolços</etiqueta>
+            <etiqueta>Forn</etiqueta>
+            <etiqueta>Aniversari</etiqueta>
+            <etiqueta>Fàcil</etiqueta>
+            <etiqueta>Econòmic</etiqueta>
+        </etiquetes>
+    </recepta>
+
+    <recepta id="r2" categoria="postre">
+        <nom>Volcà de xocolata</nom>
+
+        <ingredients>
+            <ingredient quantitat="4" unitats="unitats">ous</ingredient>
+            <ingredient quantitat="4" unitats="unitats">rovells</ingredient>
+            <ingredient quantitat="80" unitats="g">sucre</ingredient>
+            <ingredient quantitat="220" unitats="g">mantega</ingredient>
+            <ingredient quantitat="220" unitats="g">xocolata</ingredient>
+            <ingredient quantitat="60" unitats="g">farina</ingredient>
+        </ingredients>
+
+        <preparacio format="passos">
+            <pas num="1">Foneu al bany maria la xocolata i la mantega. Un cop fora del foc.</pas>
+            <pas num="2">Munteu les clares, afegint-hi el sucre, quan comenci a agafar cos.</pas>
+            <pas num="3">Barregeu la meitat de les clares muntades amb la xocolata. Incorporeu-hi la farina i la resta de les clares.</pas>
+            <pas num="4">Pinteu motlles individuals amb mantega i farina, farciu-los amb la pasta fins a la meitat i disposeu al centre un dau de xocolata. Acabeu de farcir una mica més els motlles per a amagar el dau de xocolata.</pas>
+            <pas num="5">Coeu a 220º (forn només amb escalfor de baix) durant uns 10 minuts aproximadament.</pas>
+            <pas num="6">Servir calent, empolvorat de sucre llustre i acompanyat d’una salseta o de gelat.</pas>
+        </preparacio>
+
+        <autor>anna</autor>
+
+        <dades_nutricionals calories="220" unitats_calories="kcal"/>
+        <temps_preparacio valor="30" unitats="min"/>
+        <cost valor="15" moneda="EUR"/>
+
+        <etiquetes>
+            <etiqueta>Postre</etiqueta>
+            <etiqueta>Dolços</etiqueta>
+            <etiqueta>Festa</etiqueta>
+            <etiqueta>Fàcil</etiqueta>
+            <etiqueta>Econòmic</etiqueta>
+            <etiqueta>Catalana</etiqueta>
+        </etiquetes>
+    </recepta>
+
+    <recepta id="r3" categoria="postre">
+        <nom>Pastís de formatge</nom>
+
+        <ingredients>
+            <ingredient quantitat="2" unitats="terrines">formatge Philadelphia</ingredient>
+            <ingredient quantitat="200-300" unitats="g">formatge Philadelphia (pes aproximat per terrina)</ingredient>
+            <ingredient quantitat="3" unitats="unitats">ous</ingredient>
+            <ingredient quantitat="3" unitats="unitats">iogurts naturals</ingredient>
+            <ingredient quantitat="3" unitats="cullerades_grans">farina</ingredient>
+            <ingredient quantitat="10-12" unitats="culleretes_petites">sucre</ingredient>
+            <ingredient quantitat="2" unitats="unitats">galetes Maria o Chiquilín</ingredient>
+        </ingredients>
+
+        <preparacio format="text">
+            <text>El primer que hem de fer és escalfar el forn a 200 graus. Buidem les terrines de Philadelphia en un bol i remenem bé el formatge. Agafem els 3 ous, els afegim i els remenem amb el formatge. Ara afegim els 3 iogurts naturals a la barreja i tornem a remenar.</text>
+            <text>Quan tinguem una pasta homogènia, hi posem la farina i el sucre i ho remenem tot fins que no quedin grumolls.</text>
+            <text>Preparem el motlle untant-lo bé amb mantega. Triturem les galetes i les repartim per tota la base del motlle.</text>
+            <text>Seguidament, hi evoquem la barreja que tenim ja preparada. Barregem al forn a 170º i hi col·loquem el pastís. Esperem uns 20 o 30 minuts. Com que la cocció depèn de la potència del forn, la millor manera per saber si el pastís està fet és punxar-lo pel mig amb algun instrument en forma de punxa, o un escuradents; quan ens surti net vol dir que ja tenim el pastís enllestit.</text>
+            <text>El deixem refredar i el retirem del motlle.</text>
+            <text>Ens el podem menjar sol o bé afegir-hi una capa molt fina de melmelada de maduixa o gerds. Ja veureu quina delícia!!!</text>
+        </preparacio>
+
+        <notes_complementaries>
+            <text>Una delícia pels més formatgers!!</text>
+        </notes_complementaries>
+
+        <autor>eulàlia</autor>
+
+        <etiquetes>
+            <etiqueta>Postre</etiqueta>
+        </etiquetes>
+    </recepta>
+
+</receptes>
