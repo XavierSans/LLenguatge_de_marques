@@ -1,0 +1,41 @@
+{
+  "pressupost": {
+    "client": "Interessat per correu electrònic",
+    "data": "4-3-2026",
+    "opcions": [
+      {
+        "model": "iPhone 15",
+        "marca": "Apple",
+        "caracteristiques": {
+          "pantalla": "6.1 polzades Super Retina XDR",
+          "processador": "A16 Bionic",
+          "emmagatzematge": "128GB",
+          "camera_principal": "48 Mpx"
+        },
+        "preu": 959.00
+      },
+      {
+        "model": "Galaxy S24",
+        "marca": "Samsung",
+        "caracteristiques": {
+          "pantalla": "6.2 polzades Dynamic AMOLED 2X",
+          "processador": "Exynos 2400",
+          "emmagatzematge": "256GB",
+          "camera_principal": "50 Mpx"
+        },
+        "preu": 909.00
+      },
+      {
+        "model": "RedMafia 10S Pro",
+        "marca": "RedMagic",
+        "caracteristiques": {
+          "pantalla": "6.67 polzades AMOLED 1.5k@144Hz",
+          "processador": "Snapdragon 8 Elite Gen 1",
+          "emmagatzematge": "512GB",
+          "camera_principal": "50 Mpx"
+        },
+        "preu": 799.00
+      }
+    ]
+  }
+}
