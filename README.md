@@ -9,3 +9,6 @@
 ### [futbol.xml](XML/futbol.xml)
 ### [pressupost.xml](XML/pressupost.xml)
 ### [receptes.xml](XML/receptes.xml)
+### [cdoferta.json](JSON/cdoferta.json)
+### [presupost.json](JSON/presupost.json)
+### [rellotges.json](JSON/rellotges.json)
