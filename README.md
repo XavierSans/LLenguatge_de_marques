@@ -12,3 +12,7 @@
 ### [cdoferta.json](JSON/cdoferta.json)
 ### [pressupost.json](JSON/pressupost.json)
 ### [rellotges.json](JSON/rellotges.json)
+### [bibioteca.dtd](act4/biblioteca.dtd)
+### [eleccions.dtd](act4/eleccions.dtd)
+### [facturacio.dtd](act4/facturacio.dtd)
+### [lliga.dtd](act4/lliga.dtd)
